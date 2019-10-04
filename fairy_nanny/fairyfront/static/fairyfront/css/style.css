@@ -9688,3 +9688,66 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+ /* imagen header */
+ .pr-4,
+ img {
+  max-width: 75%;
+  height: auto;
+}
+
+/* Botones header */
+.button,
+.button-header {
+  background-color: white;
+  border: none;
+  color: #4A1745;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button-header {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+.button-header:hover {
+  background-color: #4A1745;
+  color: white;
+}
+
+.middle-header{
+  background-color: white;
+  border: none;
+  color: #4A1745;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.middle-header{
+  background-color: #4A1745;
+  color: white;
+  border: 2px solid #4A1745;
+}
+
+.middle-header:hover {
+  background-color: white;
+  color: #4A1745;
+}
