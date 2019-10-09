@@ -9696,43 +9696,50 @@ textarea.form-control {
      height: auto;
    }
 
-   .logofw1,
-   img {
-   	max-width: 100%;
-   	height: auto;
+   .logofw1 {
+   	width: 100px;
+   	height: 120px;
    }
-   .menuCSS3 ul {
+
+   .logofn1,
+   img {
+	   width: 100%;
+	   height: auto;
+   }
+
+   .navbarfn ul {
    	display: flex;
    	padding: 0;
    	margin: 0;
    	list-style: none;
    }
-   .menuCSS3, .boton-header a {
+
+   .navbarfn, .boton-header a {
    	display: block;
    	padding: 2em;
    	background-color: white;
    	text-decoration: none;
    	color: #4A1745;
    }
-   .menuCSS3, .boton-header a:hover {
+   .navbarfn, .boton-header a:hover {
    	background-color: #4A1745;
    	color: white;
    }
-   .menuCSS3 ul li ul {
+   .navbarfn ul li ul {
    	display: none;
    }
-   .menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+   .navbarfn ul li a:hover + ul, .menuCSS3 ul li ul:hover {
    	display: block;
    }
 
-   .menuCSS3, .middle-header a {
+   .navbarfn, .middle-header a {
    	display: block;
    	padding: 2em;
    	background-color: #4A1745;
    	text-decoration: none;
    	color: white;
    }
-   .menuCSS3, .middle-header a:hover {
+   .navbarfn, .middle-header a:hover {
    	background-color: white;
    	color: #4A1745;
    }
@@ -9762,4 +9769,33 @@ textarea.form-control {
    .button-header:hover {
      background-color: #4A1745;
      color: white;
+   }
+
+   .navbar-nav > .middle-header {
+	 float: left;
+	}
+
+   .navbar-nav, .middle-header ul{
+	 display:none;
+	 position:relative;
+	 min-width:140px;
+	 color: #8DBAD0;
+	 float: left;
+   }
+
+   .navbar-nav .middle-header:hover > ul {
+	   display: block;
+	   float: left;
+   }
+
+   .navbar-nav .middle-header ul li {
+	   position: absolute;
+	   color: #8DBAD0;
+	   float: left;
+   }
+
+   .navbar-nav .middle-header ul li ul {
+	   right: -140px;
+	   top: 0px;
+	   color: #8DBAD0;
    }
