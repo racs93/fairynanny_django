@@ -1,4 +1,19 @@
-.navbar-brand, img {
+.logofn1, img {
+	width: 100%;
+	height: auto;
+}
+
+.logofw1, img {
 	width: 50%;
 	height: auto;
+}
+
+
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
 }
