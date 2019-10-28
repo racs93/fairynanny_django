@@ -1,14 +1,23 @@
-.logofn1, img {
-	width: 100%;
-	height: auto;
+.logofn1{
+	max-height: 350%;
+	width: auto;
+	margin-right: 0px;
 }
 
-.logofw1, img {
-	width: 50%;
-	height: auto;
+.logofw1{
+	height: 350%;
+	width: auto;
 }
 
+.roundedimg {
+	max-width: 50%;
+	border-radius: 50%;
+}
 
+.navbar {
+	margin: 0;
+	padding: 0;
+}
 .dropdown-submenu {
   position: relative;
 }
@@ -16,4 +25,8 @@
   top: 0;
   left: 100%;
   margin-top: -1px;
+}
+
+.carousel {
+	padding-top: 20px;
 }
