@@ -1,3 +1,12 @@
+body {
+	margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-width: 0;
+    margin-height: 0;
+}
+
 .logofn1{
 	max-height: 350%;
 	width: auto;
@@ -5,7 +14,7 @@
 }
 
 .logofw1{
-	height: 350%;
+	max-height: 350%;
 	width: auto;
 }
 
@@ -29,8 +38,13 @@
 
 .carousel {
 	padding-top: 20px;
+	padding-left: 25%;
+	max-width: 100%;
 }
 
+.carousel-caption {
+	padding-right: 34%;
+}
 .servicios1 {
 	padding-top: 10px;
 }
@@ -41,11 +55,36 @@
 
 .howweareblock {
 	padding-bottom: 10px;
+	padding-left: 8%;
 	border-bottom: solid;
 	border-bottom-style: dashed;
 	border-bottom-color: #AC7498;
 }
 
-.servicioscontainer {
+.serviciosfn {
 	padding-top: 15px;
+}
+
+.serviciosfw {
+	padding-top: 15px;
+}
+
+.servicios2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid;
+	border-bottom-style: dashed;
+	border-bottom-color: #AC7498;
+}
+
+.nannies {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.footer {
+	background-color: #4A1745;
+	color: white;
+	padding-bottom: 20px;
+	margin-bottom: 5%;
 }
