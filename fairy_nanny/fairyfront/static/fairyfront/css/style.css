@@ -56,13 +56,13 @@ body {
 .howweareblock {
 	padding-bottom: 10px;
 	padding-left: 8%;
-	border-bottom: solid;
-	border-bottom-style: dashed;
-	border-bottom-color: #AC7498;
 }
 
 .serviciosfn {
 	padding-top: 15px;
+	border-top: solid;
+	border-top-style: dashed;
+	border-top-color: #AC7498;
 }
 
 .serviciosfw {
