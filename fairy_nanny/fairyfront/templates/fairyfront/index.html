@@ -8,23 +8,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="{% static 'fairyfront/css/style.css' %}">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+	<link rel="stylesheet" href="{% static 'fairyfront/css/style.css' %}">
     <title>Fairy Nanny</title>
   </head>
   <body>
 	  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark static-top">
     <div class="container">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="https://www.facebook.com/www.fairynanny.com.mx/">
     	<img class="logofn1" src="{% static "fairyfront/images/logofn1.jpg" %}" alt="Logo Fairy Nanny">
       </a>
   	  <ul class="nav nav-tabs">
 	  <li class="nav-item">
-	    <a class="nav-link " href="#">Quienes Somos</a>
+	    <a class="nav-link " href="#quienessomos">Quienes Somos</a>
 	  </li>
 	  <div class="dropdown">
 		  <button class="nav-link servicios" type="button" data-toggle="dropdown">Servicios
@@ -34,23 +34,23 @@
 		      <a class="test" tabindex="-1" href="#">Agencia de Niñeras <span class="caret"></span></a>
 		      <ul class="dropdown-menu">
 				<li class="dropdown-submenu">
-				  <a class="test" href="#">Casa <span class="caret"></span></a>
+				  <a class="test" href="#servicioscasas">Casa <span class="caret"></span></a>
 				  	<ul class="dropdown-menu">
-				    <li><a href="#">Fijo</a></li>
-				    <li><a href="#">Temporal</a></li>
+				    <li><a href="#seriviciofijo">Fijo</a></li>
+				    <li><a href="#seriviciosfiestas">Temporal</a></li>
 				  </ul>
 				</li>
-		        <li><a tabindex="-1" href="#">Visita</a></li>
-		        <li><a tabindex="-1" href="#">Fiesta</a></li>
+		        <li><a tabindex="-1" href="#devisita">Visita</a></li>
+		        <li><a tabindex="-1" href="#kidsclub">Fiesta</a></li>
 		      </ul>
 		    </li>
 		  </ul>
 		</div>
 	    <li class="nav-item nav nav-tabs">
-	      <a class="nav-link" href="#">Nannies</a>
+	      <a class="nav-link" href="#nannys">Nannies</a>
 	    </li>
 		<li class="nav-item nav nav-tabs">
-		  <a class="nav-link" href="#">Contacto</a>
+		  <a class="nav-link" href="#contacto">Contacto</a>
 		</li>
 		<a class="navbar-brand" href="#">
       	<img class="logofw1" src="{% static "fairyfront/images/logofw1.png" %}" alt="Logo Fairy World">
@@ -120,10 +120,25 @@
 	  <!--/.Controls-->
 	</div>
 	<!--/.Carousel Wrapper-->
-	<div class="row howweareblock">
+	<div class="row howweareblock" id="quienessomos">
 	  <div class="col-sm-8">
-		<h1 class="text-center">Quienes Somos</h1>
-		<p class="text-justify text-right">es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum</p>
+		<h1 class="text-center">Quiénes Somos</h1>
+		<p class="text-justify text-right text-secondary" >Hola! Soy <b>Marina Correa</b>. En 2007 cuando inicié la agencia tenía 19
+              años y un equipo con muchas ideas y vocación. La agencia inició gracias a un
+              Kinder en <span class="underline">Mérida</span> llamado <i>Alison Place</i> y
+              a <span class="underline">4</span> amigas que junto conmigo
+              <span class="underline">empezaríamos</span> un camino en el que
+              <span class="underline">muchas más emprenderían</span> esta bella aventura.<br>
+              <br>
+              El objetivo de la agencia siempre ha sido darles a los niños todo nuestro
+              cariño y <span class="underline">paciencia</span>, hacer todo lo posible para
+              que su infancia sea sana y divertida, creo fielmente que para un mundo mejor
+              debemos empezar con <span class="underline">nosotros</span>, debemos preservar
+              la inocencia en los niños y cuidar sus <span class="underline">valores</span>
+              y autoestima.<br>
+              <br>
+              Ahora que soy mamá de un niño y una niña es mi propósito seguir con esta tarea
+              y jamás rendirme, ya que todos los niños se lo merecen.</p>
 	  </div>
 	  <div class="col-sm-4">
 		<img class="roundedimg" src="{% static "fairyfront/images/bg_1.jpg" %}" class="rounded-circle" alt="Cinque Terre">
@@ -133,15 +148,17 @@
 	<div class="container serviciosfn">
 		<div class="jumbotron">
 			<h1>Servicios</h1>
-			<p> No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum</p>
+			<p> Nuestra meta es satisfacer las necesidades de cuidado y entretenimiento de las familias más preocupadas por el bienestar de sus hijos, por eso ofrecemos una gran variedad de servicios para cada ocasión y cada presupuesto. Si deseas orientación, podemos sugerirte el adecuado a tus necesidades. Si quieres más informacion da click <a href="#">aquí!</a></p>
 		</div>
-		<img src="{% static "fairyfront/images/logofn1.jpg" %}" class="img-thumbnail rounded mx-auto d-block" alt="...">
+		<div class="row justify-content-center">
+			<img src="{% static "fairyfront/images/logofn1.jpg" %}" class=" col-md-6 align-self-center rounded mx-auto d-block servicioslogo" alt="...">
+		</div>
 	</div>
 
 	<div class="container servicios1">
 		<div class="row">
 			<div class="col">
-				<div class="card colleftserv" style="width: 45rem;">
+				<div class="card colleftserv" id="serviciocasas" style="width: 45rem;">
 					<img class="card-img-top" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap">
 					<div class="card-body">
 						<p class="card-text">Servicios a Casas.</p>
@@ -149,7 +166,7 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card colleftserv" style="width: 45rem;">
+				<div class="card colleftserv" id="seriviciosfiestas" style="width: 45rem;">
 					<img class="card-img-top" src="{% static "fairyfront/images/course-2.jpg" %}" alt="Card image cap">
 					<div class="card-body">
 						<p class="card-text">Servicios a Fiestas.</p>
@@ -162,7 +179,7 @@
 	<div class="container servicios1">
 		<div class="row">
 			<div class="col">
-				<div class="card colleftserv" style="width: 45rem;">
+				<div class="card colleftserv" id="servicioshostes" style="width: 45rem;">
 					<img class="card-img-top" src="{% static "fairyfront/images/course-3.jpg" %}" alt="Card image cap">
 					<div class="card-body">
 						<p class="card-text">Servicos de Hostes.</p>
@@ -170,7 +187,7 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card colleftserv" style="width: 45rem;">
+				<div class="card colleftserv" id="devisita" style="width: 45rem;">
 					<img class="card-img-top" src="{% static "fairyfront/images/course-4.jpg" %}" alt="Card image cap">
 					<div class="card-body">
 						<p class="card-text">De Visita.</p>
@@ -181,13 +198,15 @@
 	</div>
 
 	<div class="container serviciosfw">
-		<img src="{% static "fairyfront/images/logofw1.png" %}" class="img-thumbnail rounded mx-auto d-block" alt="...">
+		<div class="row justify-content-center">
+			<img src="{% static "fairyfront/images/logofw1.png" %}" class="col-md-8 rounded mx-auto d-block" alt="...">
+		</div>
 	</div>
 
 	<div class="container servicios2">
 		<div class="row">
 			<div class="col">
-				<div class="card colleftserv" style="width: 45rem;">
+				<div class="card colleftserv" id="serviciofijo" style="width: 45rem;">
 					<img class="card-img-top" src="{% static "fairyfront/images/course-5.jpg" %}" alt="Card image cap">
 					<div class="card-body">
 						<p class="card-text">Servicos de Hostes.</p>
@@ -195,7 +214,7 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card colleftserv" style="width: 45rem;">
+				<div class="card colleftserv" id="kidsclub" style="width: 45rem;">
 					<img class="card-img-top" src="{% static "fairyfront/images/course-6.jpg" %}" alt="Card image cap">
 					<div class="card-body">
 						<p class="card-text">De Visita.</p>
@@ -205,7 +224,7 @@
 		</div>
 	</div>
 
-	<div class="container serviciosfn">
+	<div class="container serviciosfn" id="nannys">
 		<div class="jumbotron">
 			<h1>Nannies</h1>
 			<p> No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum</p>
@@ -275,7 +294,7 @@
 		</div>
 	</div>
 
-	<div class="container footer">
+	<div class="container footer" id="contacto">
 	<h1 class="text-center">Informacion de Contacto</h1>
 	<hr>
 		<div class="row">

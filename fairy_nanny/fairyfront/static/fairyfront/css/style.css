@@ -1,11 +1,41 @@
 body {
-	margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-width: 0;
-    margin-height: 0;
+	font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif, 'Raleway';
+	font-weight:normal;
+	font-size:10pt;
+	color:#4A1745;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+   }
+
+h1 {
+	font-family: 'Raleway';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+	color:#4A1745;
 }
+h3 {
+	font-family: 'Raleway';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 15.4px;
+	color:#4A1745;
+}
+p {
+	font-family: 'Raleway';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color:#4A1745;
+}
+/* blockquote { font-family: Raleway; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+pre { font-family: Raleway; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; } */
 
 .logofn1{
 	max-height: 350%;
@@ -18,9 +48,16 @@ body {
 	width: auto;
 }
 
+.text-justify {
+	padding-left: 25%;
+	margin-right: 10%;
+}
 .roundedimg {
 	max-width: 50%;
 	border-radius: 50%;
+	padding-top: 55px;
+	padding-right: -5%;
+	margin-left: -18%;
 }
 
 .navbar {
@@ -88,4 +125,15 @@ body {
 	color: white;
 	padding-bottom: 20px;
 	margin-bottom: 5%;
+}
+
+.nav-link {
+	color: #4A1745;
+}
+.nav-tabs {
+	color: #4A1745;
+}
+
+.servicioslogo {
+	padding-left: 50%;
 }
