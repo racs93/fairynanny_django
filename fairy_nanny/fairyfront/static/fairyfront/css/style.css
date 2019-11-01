@@ -1,5 +1,5 @@
 body {
-	font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif, 'Raleway';
+	font-family: 'Raleway';
 	font-weight:normal;
 	font-size:10pt;
 	color:#4A1745;
@@ -14,7 +14,7 @@ h1 {
 	font-variant: normal;
 	font-weight: 700;
 	line-height: 26.4px;
-	color:#4A1745;
+	color:#8DBAD0;
 }
 h3 {
 	font-family: 'Raleway';
@@ -23,7 +23,7 @@ h3 {
 	font-variant: normal;
 	font-weight: 700;
 	line-height: 15.4px;
-	color:#4A1745;
+	color:white;
 }
 p {
 	font-family: 'Raleway';
@@ -34,6 +34,7 @@ p {
 	line-height: 20px;
 	color:#4A1745;
 }
+
 /* blockquote { font-family: Raleway; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
 pre { font-family: Raleway; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; } */
 
@@ -128,13 +129,35 @@ pre { font-family: Raleway; font-size: 13px; font-style: normal; font-variant: n
 	margin-bottom: 5%;
 }
 
-.nav-link {
-	color: #4A1745;
-}
+
 .nav-tabs {
 	color: #4A1745;
 }
 
 .servicioslogo {
 	padding-left: 50%;
+}
+
+button {
+	color: white;
+	background-color: #4A1745;
+}
+.servicios {
+	padding-bottom: 19%;
+}
+.dropdown-menu {
+	color: #8DBAD0!important;
+}
+.button2 {
+	color: #8DBAD0!important;
+	background-color: #4A1745;
+}
+
+.dropdown-submenu {
+	color: #8DBAD0!important;
+	background-color: #4A1745;
+}
+
+.button3 {
+	background-color: #8DBAD0;
 }
