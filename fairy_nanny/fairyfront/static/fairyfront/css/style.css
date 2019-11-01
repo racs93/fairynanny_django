@@ -169,3 +169,8 @@ button {
 #tamañoModal {
 	width: 80% !important;
 }
+
+.casasdiv {
+	border-top-style: dashed;
+	border-top-color: #AC7498;
+}
