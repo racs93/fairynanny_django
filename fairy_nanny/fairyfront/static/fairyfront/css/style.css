@@ -161,3 +161,7 @@ button {
 .button3 {
 	background-color: #8DBAD0;
 }
+
+.img-fluid {
+	padding: -50%;
+}
