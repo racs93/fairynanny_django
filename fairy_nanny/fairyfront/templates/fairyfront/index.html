@@ -156,9 +156,9 @@
 		</div>
 
 
-		<div class="modal fade" id="tablaCasasParticulares" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-body">
+		<div class="modal bd-example-modal-xl fade" id="tablaCasasParticulares" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl" id="tamañoModal">
+				<div class="modal-content">
 					<div class="container-fluid">
 						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
 					</div>
@@ -170,7 +170,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target="#tablaCasasParticulares" id="CasasParticulares" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".bd-example-modal-xl" id="CasasParticulares" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Servicios a Casas.</p>
 						</div>
@@ -192,6 +192,9 @@
 				<div class="col">
 					<div class="card colleftserv" id="servicioshostes" style="width: 45rem;">
 						<img class="card-img-top" src="{% static "fairyfront/images/course-3.jpg" %}" alt="Card image cap">
+						<div class="card-body">
+							<p class="card-text">Servicos de Hostes.</p>
+						</div>
 					</div>
 				</div>
 				<div class="col">

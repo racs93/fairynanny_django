@@ -163,5 +163,9 @@ button {
 }
 
 .img-fluid {
-	padding: -50%;
+	padding: -540%;
+}
+
+#tamañoModal {
+	width: 80% !important;
 }
