@@ -105,7 +105,8 @@ pre { font-family: Raleway; font-size: 13px; font-style: normal; font-variant: n
 }
 
 .serviciosfw {
-	padding-top: 15px;
+	padding-top: 5%;
+	padding-bottom: 3%; 
 }
 
 .servicios2 {
