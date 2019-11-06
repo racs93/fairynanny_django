@@ -19,7 +19,7 @@
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-dark static-top">
 			<div class="container">
-				<a class="navbar-brand" href="https://www.facebook.com/www.fairynanny.com.mx/">
+				<a class="navbar-brand" href="#fnlogo">
 					<img class="logofn1" src="{% static "fairyfront/images/logofn1.jpg" %}" alt="Logo Fairy Nanny">
 				</a>
 				<ul class="nav nav-tabs">
@@ -36,118 +36,125 @@
 						<a class="nav-link" href="#contacto">Contacto</a>
 					</li>
 				</ul>
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="#fwlogo">
 					<img class="logofw1" src="{% static "fairyfront/images/logofw1.png" %}" alt="Logo Fairy World">
 				</a>
 			</div>
 		</nav>
 
-		<!--Carousel Wrapper-->
-		<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-			<!--Indicators-->
-			<ol class="carousel-indicators">
-				<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-example-2" data-slide-to="1"></li>
-				<li data-target="#carousel-example-2" data-slide-to="2"></li>
-			</ol>
-			<!--/.Indicators-->
-			<!--Slides-->
-			<div class="carousel-inner" role="listbox">
-				<div class="carousel-item active">
-					<div class="view">
-						<img class="d-block w-75" src="{% static "fairyfront/images/image_1.jpg" %}"
-						alt="First slide">
-						<div class="mask rgba-black-light"></div>
+		<div class="container">
+			<!--Carousel Wrapper-->
+			<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+				<!--Indicators-->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-2" data-slide-to="1"></li>
+					<li data-target="#carousel-example-2" data-slide-to="2"></li>
+				</ol>
+				<!--/.Indicators-->
+				<!--Slides-->
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<div class="view">
+							<img class="d-block w-100" src="{% static "fairyfront/images/image_1.jpg" %}"
+							alt="First slide">
+							<div class="mask rgba-black-light"></div>
+						</div>
+						<div class="carousel-caption">
+							<h3 class="h3-responsive"></h3>
+							<p></p>
+						</div>
 					</div>
-					<div class="carousel-caption">
-						<h3 class="h3-responsive"></h3>
-						<p></p>
+					<div class="carousel-item">
+						<!--Mask color-->
+						<div class="view">
+							<img class="d-block w-100" src="{% static "fairyfront/images/image_2.jpg" %}"
+							alt="Second slide">
+							<div class="mask rgba-black-strong"></div>
+						</div>
+						<div class="carousel-caption">
+							<h3 class="h3-responsive"></h3>
+							<p></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<!--Mask color-->
+						<div class="view">
+							<img class="d-block w-100" src="{% static "fairyfront/images/image_3.jpg" %}"
+							alt="Third slide">
+							<div class="mask rgba-black-slight"></div>
+						</div>
+						<div class="carousel-caption">
+							<h3 class="h3-responsive"></h3>
+							<p></p>
+						</div>
 					</div>
 				</div>
-				<div class="carousel-item">
-					<!--Mask color-->
-					<div class="view">
-						<img class="d-block w-75" src="{% static "fairyfront/images/image_2.jpg" %}"
-						alt="Second slide">
-						<div class="mask rgba-black-strong"></div>
-					</div>
-					<div class="carousel-caption">
-						<h3 class="h3-responsive"></h3>
-						<p></p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<!--Mask color-->
-					<div class="view">
-						<img class="d-block w-75" src="{% static "fairyfront/images/image_3.jpg" %}"
-						alt="Third slide">
-						<div class="mask rgba-black-slight"></div>
-					</div>
-					<div class="carousel-caption">
-						<h3 class="h3-responsive"></h3>
-						<p></p>
-					</div>
-				</div>
+				<!--/.Slides-->
+				<!--Controls-->
+				<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Siguiente</span>
+				</a>
+				<!--/.Controls-->
 			</div>
-			<!--/.Slides-->
-			<!--Controls-->
-			<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Anterior</span>
-			</a>
-			<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Siguiente</span>
-			</a>
-			<!--/.Controls-->
+			<!--/.Carousel Wrapper-->
+			<div class="row howweareblock" id="quienessomos">
+				<div class="col-sm-8">
+					<h1 class="text-center">Quiénes Somos</h1>
+					<p class="text-justify text-right text-secondary" >Hola! Soy <b>Marina Correa</b>. En 2007 cuando inicié la agencia tenía 19
+						años y un equipo con muchas ideas y vocación. La agencia inició gracias a un
+						Kinder en <span class="underline">Mérida</span> llamado <i>Alison Place</i> y
+						a <span class="underline">4</span> amigas que junto conmigo
+						<span class="underline">empezaríamos</span> un camino en el que
+						<span class="underline">muchas más emprenderían</span> esta bella aventura.<br>
+						<br>
+						El objetivo de la agencia siempre ha sido darles a los niños todo nuestro
+						cariño y <span class="underline">paciencia</span>, hacer todo lo posible para
+						que su infancia sea sana y divertida, creo fielmente que para un mundo mejor
+						debemos empezar con <span class="underline">nosotros</span>, debemos preservar
+						la inocencia en los niños y cuidar sus <span class="underline">valores</span>
+						y autoestima.<br>
+						<br>
+						Ahora que soy mamá de un niño y una niña es mi propósito seguir con esta tarea
+						y jamás rendirme, ya que todos los niños se lo merecen.</p>
+					</div>
+					<div class="col-sm-4">
+						<img class="roundedimg" src="{% static "fairyfront/images/bg_1.jpg" %}" class="rounded-circle" alt="Cinque Terre">
+					</div>
+				</div>
 		</div>
-		<!--/.Carousel Wrapper-->
-		<div class="row howweareblock" id="quienessomos">
-			<div class="col-sm-8">
-				<h1 class="text-center">Quiénes Somos</h1>
-				<p class="text-justify text-right text-secondary" >Hola! Soy <b>Marina Correa</b>. En 2007 cuando inicié la agencia tenía 19
-					años y un equipo con muchas ideas y vocación. La agencia inició gracias a un
-					Kinder en <span class="underline">Mérida</span> llamado <i>Alison Place</i> y
-					a <span class="underline">4</span> amigas que junto conmigo
-					<span class="underline">empezaríamos</span> un camino en el que
-					<span class="underline">muchas más emprenderían</span> esta bella aventura.<br>
-					<br>
-					El objetivo de la agencia siempre ha sido darles a los niños todo nuestro
-					cariño y <span class="underline">paciencia</span>, hacer todo lo posible para
-					que su infancia sea sana y divertida, creo fielmente que para un mundo mejor
-					debemos empezar con <span class="underline">nosotros</span>, debemos preservar
-					la inocencia en los niños y cuidar sus <span class="underline">valores</span>
-					y autoestima.<br>
-					<br>
-					Ahora que soy mamá de un niño y una niña es mi propósito seguir con esta tarea
-					y jamás rendirme, ya que todos los niños se lo merecen.</p>
-				</div>
-				<div class="col-sm-4">
-					<img class="roundedimg" src="{% static "fairyfront/images/bg_1.jpg" %}" class="rounded-circle" alt="Cinque Terre">
-				</div>
-			</div>
 
-		<div class="container serviciosfn">
+		<div class="container serviciosfn" id="servicios">
 			<div class="jumbotron">
 				<h1>Servicios</h1>
 				<p> Nuestra meta es satisfacer las necesidades de cuidado y entretenimiento de las familias más preocupadas por el bienestar de sus hijos, por eso ofrecemos una gran variedad de servicios para cada ocasión y cada presupuesto. Si deseas orientación, podemos sugerirte el adecuado a tus necesidades. Si quieres más informacion da click <a href="#">aquí!</a></p>
 			</div>
-			<div class="row justify-content-center">
+			<div class="row justify-content-center" id="fnlogo">
 				<img src="{% static "fairyfront/images/logofn1.jpg" %}" class=" col-md-6 align-self-center rounded mx-auto d-block" alt="...">
-			</div>
-			<div class="row casasdiv">
-				<div class="col"><hr></div>
-				<div class="col-auto"><h1></h1>CASAS</div>
-				<div class="col"><hr></div>
 			</div>
 		</div>
 
+		<div class="container">
+			<div class="panel panel-default casasdiv">
+				<div class="panel-heading ">
+					<h1 class="panel-title text-center">Casas</h1>
+				</div>
+				<div class="panel-body text-center">
+					Los siguientes servicios son para personas que residen en Mérida, Yucatán y desean pasar el proceso de registro y seguridad para reservar cualquiera de los siguientes servicios.
+				</div>
+			</div>
+		</div>
 
 		<div class="tablaCasasParticulares modal bd-example-modal-xl fade" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/casasParticulares.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -156,7 +163,7 @@
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/servicioFijo.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -166,7 +173,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".serviciosFijos" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".tablaCasasParticulares" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Casas Particulares.</p>
 						</div>
@@ -174,7 +181,7 @@
 				</div>
 				<div class="col">
 					<div class="card colleftserv"  style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".tablaCasasParticulares" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".serviciosFijos" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Servicios Fijos.</p>
 						</div>
@@ -187,7 +194,7 @@
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/hostesCasas.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -224,10 +231,13 @@
 		</div>
 
 		<div class="container">
-			<div class="row visitaDiv">
-				<div class="col"><hr></div>
-				<div class="col-auto"><h1></h1>Visita</div>
-				<div class="col"><hr></div>
+			<div class="panel panel-default visitaDiv">
+				<div class="panel-heading ">
+					<h1 class="panel-title text-center">Visita</h1>
+				</div>
+				<div class="panel-body text-center">
+					Los siguientes servicios son para personas que no residen en Mérida, Yucatán o no desean pasar el proceso de registro y seguridad para reservar cualquiera de los siguientes servicios.
+				</div>
 			</div>
 		</div>
 
@@ -235,7 +245,7 @@
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/hoteleshaciendasVisita.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -244,7 +254,7 @@
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/hostesDeVisita.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -312,10 +322,13 @@
 		</div>
 
 		<div class="container">
-			<div class="row fiestaDiv">
-				<div class="col"><hr></div>
-				<div class="col-auto"><h1></h1>De Fiesta</div>
-				<div class="col"><hr></div>
+			<div class="panel panel-default fiestaDiv">
+				<div class="panel-heading ">
+					<h1 class="panel-title text-center">De Fiesta</h1>
+				</div>
+				<div class="panel-body text-center">
+					Los siguientes servicios son para invitados a fiestas o anfitriones de ellas.
+				</div>
 			</div>
 		</div>
 
@@ -323,7 +336,7 @@
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/acompañamientoFiestas.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -332,7 +345,7 @@
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/hostesInfantil.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -363,7 +376,7 @@
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/babyClub.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -403,7 +416,7 @@
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/teensClub.jpg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -439,7 +452,7 @@
 			</div>
 		</div>
 
-		<div class="container serviciosfw">
+		<div class="container serviciosfw" id="fwlogo">
 			<div class="row justify-content-center">
 				<img src="{% static "fairyfront/images/logofw1.png" %}" class="col-md-8 rounded mx-auto d-block" alt="...">
 			</div>
@@ -454,11 +467,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="modal bd-example-modal-xl fade tablaPrecios" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-xl" id="tamañoModal">
+		<div class="modal bd-example-modal-lg fade tablaPrecios" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/fwTarifas.jpeg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -525,12 +538,13 @@
 			</div>
 		</div>
 
+		<div class="container">
+			<img src="{% static "fairyfront/images/lamina4.jpg" %}" class="rounded nuestrosClientesimg" alt="Cinque Terre">
+		</div>
 
-		<div class="container serviciosfn" id="nannys">
-			<div class="jumbotron">
-				<h1>Nannies</h1>
-				<p> No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum</p>
-			</div>
+
+		<div class="container">
+			<img src="{% static "fairyfront/images/lamina3.jpg" %}" class="rounded nuestrasNanniesimg" id="nannys" alt="Cinque Terre">
 		</div>
 
 		<div class="container">
@@ -564,7 +578,7 @@
 				<div class="col-sm-4" id="contact2">
 					<h2>Contacto</h2>
 					<hr align="left" width="50%">
-					<h4 class="pt-2">Kids Club</h4>
+					<h4 class="pt-2"><a href="https://www.facebook.com/www.fairynanny.com.mx/">Facebook</a></h4>
 					<i class="fas fa-globe" style="color:#000"></i> Nombre<br>
 					<i class="fas fa-phone" style="color:#000"></i> <a href="tel:+"> Marina Correa </a><br>
 					<h4 class="pt-2">whatsapp</h4>
