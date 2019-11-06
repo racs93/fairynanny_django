@@ -49,14 +49,14 @@
 				<ol class="carousel-indicators">
 					<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
 					<li data-target="#carousel-example-2" data-slide-to="1"></li>
-					<li data-target="#carousel-example-2" data-slide-to="2"></li>
+					<!-- <li data-target="#carousel-example-2" data-slide-to="2"></li> -->
 				</ol>
 				<!--/.Indicators-->
 				<!--Slides-->
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active">
 						<div class="view">
-							<img class="d-block w-100" src="{% static "fairyfront/images/image_1.jpg" %}"
+							<img class="d-block w-100" src="{% static "fairyfront/images/carrusel1.jpg" %}"
 							alt="First slide">
 							<div class="mask rgba-black-light"></div>
 						</div>
@@ -68,7 +68,7 @@
 					<div class="carousel-item">
 						<!--Mask color-->
 						<div class="view">
-							<img class="d-block w-100" src="{% static "fairyfront/images/image_2.jpg" %}"
+							<img class="d-block w-100" src="{% static "fairyfront/images/carrusel2.jpg" %}"
 							alt="Second slide">
 							<div class="mask rgba-black-strong"></div>
 						</div>
@@ -77,10 +77,9 @@
 							<p></p>
 						</div>
 					</div>
-					<div class="carousel-item">
-						<!--Mask color-->
+					<!-- <div class="carousel-item">
 						<div class="view">
-							<img class="d-block w-100" src="{% static "fairyfront/images/image_3.jpg" %}"
+							<img class="d-block w-100" src="{% static "fairyfront/images/carrusel2.jpg" %}"
 							alt="Third slide">
 							<div class="mask rgba-black-slight"></div>
 						</div>
@@ -88,7 +87,7 @@
 							<h3 class="h3-responsive"></h3>
 							<p></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<!--/.Slides-->
 				<!--Controls-->
@@ -124,7 +123,7 @@
 						y jamás rendirme, ya que todos los niños se lo merecen.</p>
 					</div>
 					<div class="col-sm-4">
-						<img class="roundedimg" src="{% static "fairyfront/images/bg_1.jpg" %}" class="rounded-circle" alt="Cinque Terre">
+						<img class="roundedimg" src="{% static "fairyfront/images/quienesSomos.jpg" %}" class="rounded-circle" alt="Cinque Terre">
 					</div>
 				</div>
 		</div>
@@ -173,7 +172,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".tablaCasasParticulares" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".tablaCasasParticulares" src="{% static "fairyfront/images/casasCasasP.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Casas Particulares.</p>
 						</div>
@@ -181,7 +180,7 @@
 				</div>
 				<div class="col">
 					<div class="card colleftserv"  style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".serviciosFijos" src="{% static "fairyfront/images/course-1.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".serviciosFijos" src="{% static "fairyfront/images/cServiciosfijos.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Servicios Fijos.</p>
 						</div>
@@ -199,7 +198,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="modal bd-example-modal-xl fade registro" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+		<!-- <div class="modal bd-example-modal-xl fade registro" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
@@ -207,13 +206,13 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="container servicios1">
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv"  style="width: 45rem;">
-						<a ><img class="card-img-top" data-toggle="modal" data-target=".servicioHostess" src="{% static "fairyfront/images/course-3.jpg" %}" alt="Card image cap"></a>
+						<a ><img class="card-img-top" data-toggle="modal" data-target=".servicioHostess" src="{% static "fairyfront/images/cservicioshostess.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Servicio Hostess.</p>
 						</div>
@@ -221,7 +220,7 @@
 				</div>
 				<div class="col">
 					<div class="card colleftserv"  style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".registro" src="{% static "fairyfront/images/course-4.jpg" %}" alt="Card image cap"></a>
+						<a href="https://www.facebook.com/pg/www.fairynanny.com.mx/about/?ref=page_internal"><img class="card-img-top" src="{% static "fairyfront/images/cRegistro.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Registro.</p>
 						</div>
@@ -241,20 +240,22 @@
 			</div>
 		</div>
 
-		<div class="modal bd-example-modal-xl fade hoteleshaciendas" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-xl" id="tamañoModal">
-				<div class="modal-content">
-					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/hoteleshaciendasVisita.jpg" %}" class="img-fluid" alt=""/>
+		<div class="container">
+			<div class="modal bd-example-modal-xl fade hoteleshaciendas" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl" id="tamañoModal">
+					<div class="modal-content">
+						<div class="container-fluid">
+							<img src="{% static "fairyfront/images/hoteleshaciendasVisita.jpg" %}" class="img-fluid" alt=""/>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="modal bd-example-modal-xl fade hotelesHHBB" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-xl" id="tamañoModal">
-				<div class="modal-content">
-					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/hostesDeVisita.jpg" %}" class="img-fluid" alt=""/>
+			<div class="modal bd-example-modal-xl fade hotelesHHBB" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl" id="tamañoModal">
+					<div class="modal-content">
+						<div class="container-fluid">
+							<img src="{% static "fairyfront/images/hostesDeVisita.jpg" %}" class="img-fluid" alt=""/>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -264,15 +265,15 @@
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv"  style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".hoteleshaciendas" src="{% static "fairyfront/images/course-3.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top servHotelesHac" data-toggle="modal" data-target=".hoteleshaciendas" src="{% static "fairyfront/images/vhoteleshaciendasetc.jpeg" %}" alt="Card image cap"></a>
 						<div class="card-body">
-							<p class="card-text">Hoteles, Haciendas, etc.</p>
+							<p class="card-text">Hoteles, Haciendas y demás sitios de hospedaje.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col">
 					<div class="card colleftserv"  style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".hotelesHHBB" src="{% static "fairyfront/images/course-4.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".hotelesHHBB" src="{% static "fairyfront/images/vhostessparahoteles.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body"></a>
 							<p class="card-text">Hoteles Para HHBB.</p>
 						</div>
@@ -281,20 +282,22 @@
 			</div>
 		</div>
 
-		<div class="modal bd-example-modal-xl fade talleresActesp" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-xl" id="tamañoModal">
-				<div class="modal-content">
-					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+		<div class="container">
+			<div class="modal bd-example-modal-xl fade talleresActesp" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl" id="tamañoModal">
+					<div class="modal-content">
+						<div class="container-fluid">
+							<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="modal bd-example-modal-xl fade English" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-xl" id="tamañoModal">
-				<div class="modal-content">
-					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+			<div class="modal bd-example-modal-xl fade English" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl" id="tamañoModal">
+					<div class="modal-content">
+						<div class="container-fluid">
+							<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -304,7 +307,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv"  style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".talleresActesp" src="{% static "fairyfront/images/course-3.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top servtalleres" data-toggle="modal" data-target=".talleresActesp" src="{% static "fairyfront/images/vTalleresyactividades.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Talleres y Act especiales.</p>
 						</div>
@@ -312,7 +315,7 @@
 				</div>
 				<div class="col">
 					<div class="card colleftserv"  style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".English" src="{% static "fairyfront/images/course-4.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".English" src="{% static "fairyfront/images/venglish.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">English.</p>
 						</div>
@@ -355,7 +358,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".acompañmientoFiestas" src="{% static "fairyfront/images/course-3.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".acompañmientoFiestas" src="{% static "fairyfront/images/defiestaAcompañamientoafiestas.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Acompañamiento a Fiestas.</p>
 						</div>
@@ -363,7 +366,7 @@
 				</div>
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".hostess" src="{% static "fairyfront/images/course-4.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".hostess" src="{% static "fairyfront/images/devisitaHostess.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Hostess.</p>
 						</div>
@@ -395,7 +398,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".babyClub" src="{% static "fairyfront/images/course-3.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".babyClub" src="{% static "fairyfront/images/defiestaBabyClub.jpeg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Baby Club.</p>
 						</div>
@@ -403,7 +406,7 @@
 				</div>
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".kidsClub" src="{% static "fairyfront/images/course-4.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".kidsClub" src="{% static "fairyfront/images/defiestaKidsClub.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Kids Club.</p>
 						</div>
@@ -435,7 +438,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".teensClub" src="{% static "fairyfront/images/course-3.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".teensClub" src="{% static "fairyfront/images/defiestaTeensClub.jpeg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Teens Club.</p>
 						</div>
@@ -443,7 +446,7 @@
 				</div>
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".talleres2" src="{% static "fairyfront/images/course-4.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".talleres2" src="{% static "fairyfront/images/defiestaTalleresyActiv.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Talleres y Actividades Especiales.</p>
 						</div>
@@ -458,16 +461,16 @@
 			</div>
 		</div>
 
-		<div class="modal bd-example-modal-xl fade flyer" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+		<div class="modal bd-example-modal-xl fade queEsFW" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-xl" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
-						<img src="{% static "fairyfront/images/kidsclubeventos.jpeg" %}" class="img-fluid" alt=""/>
+						<img src="{% static "fairyfront/images/fWqueEsFW.jpeg" %}" class="img-fluid" alt=""/>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="modal bd-example-modal-lg fade tablaPrecios" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+		<div class="modal bd-example-modal-lg fade tarifasAnuales" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-lg" id="tamañoModal">
 				<div class="modal-content">
 					<div class="container-fluid">
@@ -477,21 +480,61 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container servicios1">
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".flyer" src="{% static "fairyfront/images/course-5.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".queEsFW" src="{% static "fairyfront/images/queesfairyworld.jpeg" %}" alt="Card image cap"></a>
 						<div class="card-body">
-							<p class="card-text">Flyer.</p>
+							<p class="card-text">¿Qué es Fairy Wolrd?</p>
 						</div>
 					</div>
 				</div>
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".tablaPrecios" src="{% static "fairyfront/images/course-6.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".tarifasAnuales" src="{% static "fairyfront/images/tarifasanuales.jpeg" %}" alt="Card image cap"></a>
 						<div class="card-body">
-							<p class="card-text">Tabla de Precios.</p>
+							<p class="card-text">Tarifas Anuales.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal bd-example-modal-xl fade consejoTecnico" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl" id="tamañoModal">
+				<div class="modal-content">
+					<div class="container-fluid">
+						<img src="{% static "fairyfront/images/fwConsejoTecnico.jpg" %}" class="img-fluid" alt=""/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal bd-example-modal-lg fade vacaciones" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" id="tamañoModal">
+				<div class="modal-content">
+					<div class="container-fluid">
+						<img src="{% static "fairyfront/images/cursoDeVerano2.jpg" %}" class="img-fluid" alt=""/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container servicios1">
+			<div class="row">
+				<div class="col">
+					<div class="card colleftserv" style="width: 45rem;">
+						<a><img class="card-img-top" data-toggle="modal" data-target=".consejoTecnico" src="{% static "fairyfront/images/consejotecnico.jpg" %}" alt="Card image cap"></a>
+						<div class="card-body">
+							<p class="card-text">Consejo Técnico.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card colleftserv" style="width: 45rem;">
+						<a><img class="card-img-top" data-toggle="modal" data-target=".vacaciones" src="{% static "fairyfront/images/Paravacaciones.jpg" %}" alt="Card image cap"></a>
+						<div class="card-body">
+							<p class="card-text">Vacaciones.</p>
 						</div>
 					</div>
 				</div>
@@ -517,11 +560,11 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container servicios1">
 			<div class="row">
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".fiestaWorld" src="{% static "fairyfront/images/course-5.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".fiestaWorld" src="{% static "fairyfront/images/fiestaWorld.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Fiesta World.</p>
 						</div>
@@ -529,7 +572,7 @@
 				</div>
 				<div class="col">
 					<div class="card colleftserv" style="width: 45rem;">
-						<a><img class="card-img-top" data-toggle="modal" data-target=".fiestaGreatWorld" src="{% static "fairyfront/images/course-6.jpg" %}" alt="Card image cap"></a>
+						<a><img class="card-img-top" data-toggle="modal" data-target=".fiestaGreatWorld" src="{% static "fairyfront/images/fiestaGreatworld.jpg" %}" alt="Card image cap"></a>
 						<div class="card-body">
 							<p class="card-text">Fiesta Great World.</p>
 						</div>
